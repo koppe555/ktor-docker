@@ -271,4 +271,3 @@ override suspend fun article(id: Int): Article? = dbQuery {
 }
 ```
 キャッシュ問い合わせ、なければDB問い合わせ、結果を保持。
-# ktor-docker
